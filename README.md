@@ -4,7 +4,6 @@
 
 1. spread-rest-operator
 
-   ```
    ~~~javascript
    // spread operator ('...')
    function sum(x = 1, y = 2, z = 3) {
@@ -22,11 +21,9 @@
        return (x + y) * a.length;
    }
    ~~~
-   ```
 
 2. array-destructuring
 
-   ```
    ~~~javascript
    const [x, y] = ['a', 'b'];
    
@@ -51,11 +48,9 @@
    
    console.log(bubbleSort([28, 74, 21, 30, 36, 12, 13, 99, 2]));
    ~~~
-   ```
 
 3. property-shorthand
 
-   ```
    ~~~javascript
    const [x, y] = ['a', 'b'];
    const obj = { x, y };
@@ -67,11 +62,9 @@
    const obj = { x: x, y: y };
    */
    ~~~
-   ```
 
 4. shorthand-method-name
 
-   ```
    ~~~javascript
    /* Permite que se declare funções dentro de objetos, como se elas fossem propriedades. */
    const hello = {
@@ -96,5 +89,4 @@
    ${hello3.printHello()}`,
    );
    ~~~
-   ```
 
