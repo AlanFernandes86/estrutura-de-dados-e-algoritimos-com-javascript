@@ -5,12 +5,12 @@ class ITBook extends Book {
     this.technology = technology;
   }
   printTecnology() {
-    console.log(this.technology);
+    console.log(this.technology + this.title);
   }
 };
 
-let params = ['Augoritimo e Estrutura de Dados', 'Autora', 2021, 'Javascript']
+let params = ['Algoritimos e Estrutura de Dados', 'Autora', 2021, 'Javascript']
 
 let itBook = new ITBook(...params);
 
-console.log(ITBook.printTecnology());
+itBook.printTecnology();
