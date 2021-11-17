@@ -1,16 +1,15 @@
-import Book from './Book';
+// import Book from './Book';
+const { Book } = require('./Book');
+
 class ITBook extends Book {
   constructor(title, pages, isbn, technology) {
     super(title, pages, isbn);
     this.technology = technology;
   }
-  printTecnology() {
-    console.log(this.technology + this.title);
-  }
-};
 
-let params = ['Algoritimos e Estrutura de Dados', 'Autora', 2021, 'Javascript']
+  printTechnology() {
+    console.log(`${this.technology}, ${this.title}`); 
+}
+}
 
-let itBook = new ITBook(...params);
-
-itBook.printTecnology();
+exports.ITBook = ITBook;
