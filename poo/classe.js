@@ -1,4 +1,6 @@
-// import ITBook from './ITBook'; - > não funciona no Run Code
+// import ITBook from './ITBook.js'; - > não funciona no Run Code // testar no navegador inserir type="module" na tag script
+// Ler sobre Browserify e Webpack para criar um bundle com código transpilado para ES5
+// Babel CLI - comando 'babel Book.js --out-dir lib'
 const { ITBook } = require('./ITBook');
 
 function BookFunction(title, author, description) {
