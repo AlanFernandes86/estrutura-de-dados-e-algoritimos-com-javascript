@@ -8,7 +8,7 @@ class ITBook extends Book {
   }
 
   printTechnology() {
-    console.log(`${this.technology}, ${this.title}`); 
+    console.log(this.technology);
 }
 }
 

@@ -1,4 +1,4 @@
-// export default 
+// export default
 
 class Book {
   constructor(title, pages, isbn) {

@@ -19,8 +19,9 @@ const bookFunction = new BookFunction(title, author, description);
 
 console.log(bookFunction);
 
+
 BookFunction.prototype.printTitle = () => {
-    console.log(this.title);
+    console.log("Função externa");
 }; // função estática ou global
 
 bookFunction.printTitle();
@@ -30,3 +31,4 @@ console.log(bookFunction.getTitle());
 const itBook = new ITBook(title, author, description, technology);
 
 itBook.printTechnology();
+itBook.printIsbn();
