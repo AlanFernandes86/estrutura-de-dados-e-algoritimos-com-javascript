@@ -21,9 +21,8 @@ const bookFunction = new BookFunction(title, author, description);
 
 console.log(bookFunction);
 
-
 BookFunction.prototype.printTitle = () => {
-    console.log("Função externa");
+    console.log('Função externa');
 }; // função estática ou global
 
 bookFunction.printTitle();
